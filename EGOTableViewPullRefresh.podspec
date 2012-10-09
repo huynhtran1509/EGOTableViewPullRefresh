@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                  :tag => '0.1.0' }
 
   s.source_files = 'EGOTableViewPullRefresh/Classes/View/*.{h,m}'
-  s.resources    = 'EGOTableViewPullRefresh/Resources'
+  s.resources    = 'EGOTableViewPullRefresh/Resources/*.png'
   s.clean_paths  = 'Demo'
   s.framework    = 'QuartzCore'
 end
